@@ -1,0 +1,27 @@
+# Python and notebook caches
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Local environments and secrets
+.venv/
+venv/
+env/
+.env
+.env.*
+
+# Large local datasets
+*.csv
+*.xlsx
+*.json
+
+# Trained model artifacts
+models/
+*.pkl
+*.pt
+*.pth
+*.bin
+
+# Generated outputs
+exports/
+*.log
